@@ -28,14 +28,14 @@ Questo progetto espone alcune API utilizzando Node.js e Express per simulare div
 ## Endpoint disponibili
 | Endpoint           | Descrizione                                  | Esempio di richiesta                      |
 |--------------------|----------------------------------------------|-------------------------------------------|
-| `GET /database-error`    | Simula un errore del database                | `http://localhost:3002/api/database-error` |
-| `GET /timeout-error`     | Timeout di 50 secondi                        | `http://localhost:3002/api/timeout-error`  |
-| `GET /auth-error`        | Errore di autenticazione                     | `http://localhost:3002/api/auth-error`     |
-| `GET /validation-error`  | Errore di validazione dati                   | `http://localhost:3002/api/validation-error` |
-| `GET /internal-error`    | Errore generico del server                   | `http://localhost:3002/api/internal-error` |
-| `GET /not-found`         | Risposta 404 (pagina non trovata)            | `http://localhost:3002/api/not-found`      |
-| `GET /multiple-errors`   | Multipli errori contemporaneamente           | `http://localhost:3002/api/multiple-errors` |
-| `GET /cors-error`        | Errore CORS (Cross-Origin Resource Sharing)  | `http://localhost:3002/api/cors-error`     |
+| `GET /database-error`    | Simula un errore del database                | `http://localhost:[porta selezionata]/database-error` |
+| `GET /timeout-error`     | Timeout di 50 secondi                        | `http://localhost:[porta selezionata]/timeout-error`  |
+| `GET /auth-error`        | Errore di autenticazione                     | `http://localhost:[porta selezionata]/auth-error`     |
+| `GET /validation-error`  | Errore di validazione dati                   | `http://localhost:[porta selezionata]/validation-error` |
+| `GET /internal-error`    | Errore generico del server                   | `http://localhost:[porta selezionata]/internal-error` |
+| `GET /not-found`         | Risposta 404 (pagina non trovata)            | `http://localhost:[porta selezionata]/not-found`      |
+| `GET /multiple-errors`   | Multipli errori contemporaneamente           | `http://localhost:[porta selezionata]/multiple-errors` |
+| `GET /cors-error`        | Errore CORS (Cross-Origin Resource Sharing)  | `http://localhost:[porta selezionata]/cors-error`     |
 
 ## Test delle API
 - Usa un browser o strumenti come **curl**, **Postman** o **Thunder Client** per effettuare richieste agli endpoint.
