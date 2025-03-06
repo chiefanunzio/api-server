@@ -17,7 +17,10 @@ export default function handlerWithDatabaseError(req, res) {
     success: true,
     data: [
       { id: 1, name: "Database Record 1" },
-      { id: 2, name: "Database Record 2" }
+      { id: 2, name: "Database Record 2" },
+      { id: 3, name: "Database Record 3" },
+      { id: 4, name: "Database Record 4" },
+      { id: 5, name: "Database Record 5" }
     ]
   });
 }
